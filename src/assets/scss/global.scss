@@ -1,0 +1,25 @@
+//SETUP
+@import "setup/variables";
+@import "setup/functions";
+@import "setup/mixins";
+
+//BASICS
+@import 'basics/base';
+@import 'basics/helpers';
+@import 'basics/layout';
+@import 'basics/typography';
+
+//PAGES
+@import 'pages/home-page';
+@import 'pages/signin-signup-page';
+
+// CMPS
+@import 'cmps/custom-button';
+@import 'cmps/form-input';
+@import 'cmps/app-header';
+@import 'cmps/directory-menu';
+@import 'cmps/menu-item';
+@import 'cmps/collection-preview';
+@import 'cmps/collection-item';
+@import 'cmps/signin-cmp';
+@import 'cmps/signup-cmp';
