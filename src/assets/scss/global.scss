@@ -12,8 +12,12 @@
 //PAGES
 @import 'pages/home-page';
 @import 'pages/signin-signup-page';
+@import 'pages/checkout-page';
+@import 'pages/collection-page';
 
 // CMPS
+@import 'cmps/cart-icon';
+@import 'cmps/cart-dropdown';
 @import 'cmps/custom-button';
 @import 'cmps/form-input';
 @import 'cmps/app-header';
@@ -23,3 +27,7 @@
 @import 'cmps/collection-item';
 @import 'cmps/signin-cmp';
 @import 'cmps/signup-cmp';
+@import 'cmps/cart-item';
+@import 'cmps/checkout-item';
+@import 'cmps/collections-overview';
+@import 'cmps/stripe-button';

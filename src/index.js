@@ -4,13 +4,16 @@ import { App } from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import { store } from './store/index'
+import { PersistGate } from 'redux-persist/integration/react';
+import { store, persistor } from './store/index';
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <Router>
-        <App />
+        <PersistGate persistor={persistor}>
+          <App />
+        </PersistGate>
       </Router>
     </Provider>
   </React.StrictMode>,
